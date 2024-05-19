@@ -164,9 +164,11 @@ class Board {
     // changing to a JSON dictionary will also make it easier to get certain parts of the data
     // let data = {
     //   "SelectedPiece": piece, 
-    //   "DroppedSquare": event.target.id,
+    //   "DroppedSquare": event.target.id, 
     //   "Board": MainBoard.board
     // };
+
+    // guh
     
     // Checking validity of the move
     let valid = this.check_move_validity(data);
