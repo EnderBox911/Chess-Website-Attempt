@@ -63,5 +63,3 @@ for i in range(8):
       )
 
       board[i][c] = Piece.pieces[-1]
-
-# NEW LINE
