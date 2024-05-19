@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.board_square {
+  /* Just putting a random attribute in here so that there wont be an empty class ting */
+  visibility: visible
+}
+
+.dark {
+  background-color: #a37745;
+}
+
+.light {
+  background-color: #f4ebe6;
+}
+
+.main {
+  position: absolute;
+  display: flex;
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#main_svg {
+  min-width: 400px;
+  width: 40%;             
+  aspect-ratio: 1 / 1;
+}
+
+.piece {
+  display: inline-block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  -webkit-user-select: none;  /* To disable the ability to highlight the piece */
+  -webkit-user-drag: auto;
+  -webkit-box-shadow: none;
+}
+
+.piece:hover {
+  cursor: pointer;
+}
+
+/*
+#main_board {
+  width: 1000px;
+  aspect-ratio: 1 / 1;
+}
+*/
+
+.square {
+  display: inline-block;
+  margin: 0px;
+  width: 12.375%;
+  height: 12.375%;
+  aspect-ratio: 1 / 1;
+}
+
+. dragging {
+  opacity: 1;
+}
