@@ -1,0 +1,3 @@
+PLANS FOR CHESS GAME (With servers):
+
+1. get server side working

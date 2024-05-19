@@ -1,0 +1,24 @@
+grid drag and drop: https://www.ag-grid.com/javascript-data-grid/drag-and-drop/
+svg drag and drop: https://www.petercollingridge.co.uk/tutorials/svg/interactive/dragging/
+
+
+function build_board() {
+    let count1, count2 = 50, 50
+    let xx = 0;
+    let yy = 0;
+    for (let x = 0; x < 8; x++) {
+      for (let i = 0; i < 8; i++) {
+        $('#main_svg').append(`<rect x='${count1}' y='${count2}' width='20' height='20' style='fill:red;stroke:black;stroke-width:5;opacity:0.5'/>`)
+        count1 = count1 + 20
+      }
+      count2 = count2 + 20
+    }
+  }
+
+
+
+
+whole chess:
+https://www.youtube.com/watch?v=Qv0fvm5B0EM
+drag:
+https://www.youtube.com/watch?v=QCnZbK7vzSQ

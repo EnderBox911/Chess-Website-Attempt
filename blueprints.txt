@@ -1,0 +1,11 @@
+BLUEPRINTS FOR THE CHESS WEBSITE:
+Basically going to outline how different aspects/processes are going to happen
+
+Player selects a piece and available moves are shown:
+1. Player clicks or moves the piece            
+2. Get data about the selected piece
+  a. colour of the piece, location, etc.
+3. data about the selected piece is sent to backend with the board data
+4. backend calculates available moves
+5. backend sends back available moves, as a JSON list
+6. frontend displays the available moves
